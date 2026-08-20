@@ -92,6 +92,7 @@ See [Framework Mapping](reference/framework-mapping.md) for the concise cross-re
 LLM-Prompt-Injection-Testing-Methodology/
 ├── README.md
 ├── PUBLIC_RELEASE_NOTES.md
+├── COPYRIGHT.md
 ├── docs/
 │   └── prompt-injection-testing-methodology.pdf
 ├── checklists/
@@ -124,6 +125,14 @@ Examples use placeholders, synthetic data, controlled collectors, and generic en
 LLM behaviour is stochastic and changes across model, prompt, orchestration, retrieval, tool, and policy revisions. A single successful or failed payload is therefore not sufficient evidence of systemic security posture.
 
 Testing should use baseline/control cases, repeatable variants, downstream application evidence, and architecture context. Retesting should verify the original impact and reasonable variants, not simply confirm that one literal string has been blocked.
+
+## Copyright
+
+**Copyright © 2026 Daniel Jones. All rights reserved.**
+
+This repository is publicly available for portfolio demonstration, professional review and authorised security-assessment reference. No open-source licence is granted for the independently rewritten public-edition materials. This notice does not claim ownership over general prompt-injection concepts, penetration-testing techniques, OWASP, MITRE ATLAS, NIST, third-party standards, or any private/employer methodology.
+
+See [COPYRIGHT.md](COPYRIGHT.md) for the full notice.
 
 ## Disclaimer
 
